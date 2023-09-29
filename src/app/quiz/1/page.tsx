@@ -1,7 +1,7 @@
 import React from "react";
 import { Locale } from "../../../../i18n-cfg";
 import { getRounds } from "../../../../getRounds";
-import RoundOne from "@/components/RoundOne";
+import RoundOne from "@/components/RoundOne/RoundOne";
 
 export default async function RoundeOne({
   params: { lang },
